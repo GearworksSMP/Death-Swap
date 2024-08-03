@@ -4,7 +4,8 @@
 		"dimension_options": "minecraft:overworld",
 		"preset": "minecraft:normal",
 		"x": 10,
-		"z": 10
+		"z": 10,
+		"excluded_biomes": "#minecraft:is_ocean"
 	},
 	"players": {
 		"min": 1,
