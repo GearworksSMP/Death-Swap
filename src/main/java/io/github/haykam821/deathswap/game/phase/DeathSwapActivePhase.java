@@ -112,6 +112,9 @@ public class DeathSwapActivePhase implements GameActivityEvents.Enable, GameActi
 				p.getInventory().setStack(29, new ItemStack(AllBlocks.GEARBOX, 64));
 				p.getInventory().setStack(30, new ItemStack(AllBlocks.ROTATION_SPEED_CONTROLLER, 64));
 				p.getInventory().setStack(31, new ItemStack(Items.IRON_INGOT, 64));
+				p.getInventory().setStack(32, new ItemStack(Items.LEVER, 64));
+				p.getInventory().setStack(33, new ItemStack(AllBlocks.GEARSHIFT, 64));
+				p.getInventory().setStack(34, new ItemStack(AllBlocks.CLUTCH, 64));
 			}
 		});
 	}
